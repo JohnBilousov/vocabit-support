@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multibit — поддержка</title>
+  <meta name="description" content="Поддержка Multibit — приложения для изучения таблицы умножения. Контакты и ответы на частые вопросы." />
+  <style>
+    :root {
+      --accent: #3B82F6;
+      --accent-press: #2563EB;
+      --canvas: #F2F2F7;
+      --surface: #FFFFFF;
+      --text: #11181C;
+      --text-2: #60646C;
+      --separator: #E3E3E8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--canvas);
+      color: var(--text);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; }
+    header { text-align: center; padding: 40px 0 28px; }
+    .logo {
+      display: block; width: 72px; height: 72px; border-radius: 18px; margin: 0 auto 16px;
+      box-shadow: 0 8px 24px rgba(59,130,246,0.35);
+    }
+    h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.5px; }
+    .tagline { color: var(--text-2); font-size: 17px; margin: 0; }
+    .card {
+      background: var(--surface); border: 1px solid var(--separator);
+      border-radius: 18px; padding: 24px; margin: 16px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .contact { text-align: center; }
+    .contact h2 { margin-top: 0; }
+    .email-btn {
+      display: inline-block; margin: 8px 0 6px; padding: 14px 28px;
+      background: var(--accent); color: #fff; text-decoration: none;
+      border-radius: 999px; font-weight: 700; font-size: 17px;
+    }
+    .email-btn:hover { background: var(--accent-press); }
+    .muted { color: var(--text-2); font-size: 15px; }
+    h2 { font-size: 22px; letter-spacing: -0.3px; }
+    .faq-item { border-top: 1px solid var(--separator); padding: 16px 0; }
+    .faq-item:first-of-type { border-top: none; padding-top: 4px; }
+    .faq-q { font-weight: 700; font-size: 17px; margin: 0 0 4px; }
+    .faq-a { color: var(--text-2); margin: 0; font-size: 16px; }
+    a { color: var(--accent); }
+    footer {
+      text-align: center; color: var(--text-2); font-size: 14px;
+      margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--separator);
+    }
+    footer a { margin: 0 8px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img class="logo" src="icon.png" alt="" width="72" height="72" />
+      <h1>Поддержка Multibit</h1>
+      <p class="tagline">Таблица умножения — как игра</p>
+    </header>
+
+    <section class="card contact">
+      <h2>Нужна помощь?</h2>
+      <p class="muted">Напишите нам — поможем с любым вопросом, ошибкой или идеей.</p>
+      <a class="email-btn" href="mailto:ultimate.solutions@icloud.com?subject=Multibit">ultimate.solutions@icloud.com</a>
+      <p class="muted">Обычно отвечаем в течение 48 часов.</p>
+    </section>
+
+    <section class="card">
+      <h2>Частые вопросы</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">Что такое Multibit?</p>
+        <p class="faq-a">Приложение, которое помогает выучить таблицу умножения: сначала понять каждый пример — картинка из точек и простой приём, — а потом довести ответы до автоматизма в играх-тренажёрах.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Нужны ли регистрация и интернет?</p>
+        <p class="faq-a">Нет. Multibit работает без аккаунта и без интернета.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Есть ли реклама или покупки?</p>
+        <p class="faq-a">Нет. Приложение бесплатное: без рекламы и без встроенных покупок.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Где хранится прогресс?</p>
+        <p class="faq-a">Только на вашем устройстве. Если удалить приложение, прогресс удалится вместе с ним. Начать заново можно в настройках (шестерёнка вверху справа) → «Сбросить прогресс».</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Как открыть все уровни сразу?</p>
+        <p class="faq-a">Настройки → «Открыть все уровни».</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Как выключить звук или вибрацию?</p>
+        <p class="faq-a">Настройки → переключатели «Звуки» и «Вибрация».</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Подходит ли Multibit детям?</p>
+        <p class="faq-a">Да. В приложении нет рекламы, чатов и внешних ссылок, и мы не собираем никаких данных — подробнее в <a href="privacy/">политике конфиденциальности</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Нашли ошибку или есть идея?</p>
+        <p class="faq-a">Напишите на <a href="mailto:ultimate.solutions@icloud.com?subject=Multibit">ultimate.solutions@icloud.com</a> — коротко опишите, что случилось, и, если можно, приложите скриншот. Мы читаем каждое письмо.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>In English</h2>
+      <p class="muted">Multibit is a multiplication-table learning app. It needs no account and no internet connection, has no ads or in-app purchases, and keeps all progress on the device. For help, email <a href="mailto:ultimate.solutions@icloud.com?subject=Multibit">ultimate.solutions@icloud.com</a>.</p>
+    </section>
+
+    <footer>
+      <div>
+        <a href="privacy/">Политика конфиденциальности</a>
+        ·
+        <a href="mailto:ultimate.solutions@icloud.com?subject=Multibit">Написать нам</a>
+      </div>
+      <p>© 2026 Multibit</p>
+    </footer>
+  </div>
+</body>
+</html>
